@@ -24,7 +24,8 @@ const { initWatchers } = require('./cache/watcher.service')
 				'Unable to initiate Mongoose default connection, because of the error: %s',
 				error.message,
 			)
-			process.exit(0)
+			console.error('MongoDB Connection Error:', error.message)
+			process.exit(1)
 		})
 	console.log('🔄 Fetching config from database...')
 	await fetchTheLatestConfigFromDatabase()
@@ -54,7 +55,7 @@ const { initWatchers } = require('./cache/watcher.service')
 	;(require('./startup/routes')(app),
 		require('./startup/logging')(),
 		require('./startup/prod')(app))
-	const port = myPeeguConfig.app.port || process.env.myPeegu_PORT || 3004
+	const port = process.env.PORT || myPeeguConfig.app.port || process.env.myPeegu_PORT || 3004
 	console.log({ port })
 	const server = app.listen(port, () => logger.info(`listening on port ${port}...`))
 	module.exports = server
