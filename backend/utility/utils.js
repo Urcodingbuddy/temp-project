@@ -990,22 +990,22 @@ function calculateScore(questions) {
 
 function convertObjectIdsToStrings(obj) {
 	if (Array.isArray(obj)) {
-		return obj.map(convertObjectIdsToStrings)
+		obj.forEach((item, index) => {
+			obj[index] = convertObjectIdsToStrings(item)
+		})
+		return obj
 	} else if (obj && typeof obj === 'object') {
-		const result = {}
 		for (const key in obj) {
 			const val = obj[key]
 			if (val instanceof mongoose.Types.ObjectId) {
-				result[key] = val.toString()
+				obj[key] = val.toString()
 			} else if (val instanceof Date) {
-				result[key] = val.toISOString() // or keep val if you want Date object
+				obj[key] = val.toISOString()
 			} else if (Array.isArray(val) || typeof val === 'object') {
-				result[key] = convertObjectIdsToStrings(val)
-			} else {
-				result[key] = val
+				obj[key] = convertObjectIdsToStrings(val)
 			}
 		}
-		return result
+		return obj
 	}
 	return obj
 }
