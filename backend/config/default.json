@@ -5,7 +5,7 @@
 	"jwtPrivateKey": "mypeegu_local_secret_123456",
 	"port": "3004",
 	"logLevel": "info",
-	"dbPath": "mongodb+srv://anshpethe110:anshpethe110@cluster0.702twr0.mongodb.net/?appName=Cluster0",
+	"dbPath": "mongodb+srv://anshpethe110:bLpmmEUBxPzLhlGh@cluster0.702twr0.mongodb.net/?appName=Cluster0",
 	"myPeeguAccessKeyId": "",
 	"myPeeguSecretAccessKey": ""
 }
