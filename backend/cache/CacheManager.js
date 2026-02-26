@@ -77,7 +77,7 @@ class CacheManager {
 			// Ensure the directory exists
 			await fs.mkdir(dirPath, { recursive: true })
 
-			const jsonData = JSON.stringify(data, null, 2)
+			const jsonData = JSON.stringify(data)
 
 			// Write to temp file
 			await fs.writeFile(tempFilePath, jsonData, 'utf-8')
