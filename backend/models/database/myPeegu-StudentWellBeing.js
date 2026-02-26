@@ -1,0 +1,113 @@
+const mongoose = require('mongoose')
+const { collections } = require('../../utility/databaseConstants')
+const { buildComboKey } = require('../../utility/common-utility-functions')
+
+const StudentsWellBeingAssessmentSchema = new mongoose.Schema(
+	{
+		studentName: { type: String, required: true },
+		studentId: { type: mongoose.Schema.Types.ObjectId, ref: collections.students },
+		classRoomId: { type: mongoose.Schema.Types.ObjectId, ref: collections.classrooms },
+		counsellorName: { type: String, required: true },
+		school: { type: mongoose.Schema.Types.ObjectId, ref: collections.schools },
+		schoolName: { type: String, required: true },
+		user_id: { type: String, required: true },
+		isRatingReset: { type: Boolean },
+		overallHopeScore: { type: Number },
+		overallWellBeingScaleScore: { type: Number },
+		isStudentsWellBeingFormSubmitted: { type: Boolean },
+
+		CH_PathwayMarks: { type: Number, default: 0 },
+		CH_AgencyMarks: { type: Number, default: 0 },
+
+		PWB_AutonomyMarks: { type: Number, default: 0 },
+		PWB_EnvironmentalMarks: { type: Number, default: 0 },
+		PWB_PersonalGrowthMarks: { type: Number, default: 0 },
+
+		PWB_PositiveRelationsMarks: { type: Number, default: 0 },
+		PWB_PurposeInLifeMarks: { type: Number, default: 0 },
+		PWB_SelfAcceptanceMarks: { type: Number, default: 0 },
+		wellBeingAssessmentSubmissionDate: {
+			type: Date,
+		},
+		SAY: { type: mongoose.Schema.Types.ObjectId, ref: collections.schoolAcademicYears },
+		academicYear: { type: mongoose.Schema.Types.ObjectId, ref: collections.academicYears },
+		graduated: {
+			type: Boolean,
+			default: false,
+		},
+		exited: {
+			type: Boolean,
+			default: false,
+		},
+		childrensHopeScaleScore: {
+			type: [
+				{
+					questionNumber: {
+						type: Number,
+						required: true,
+						min: 0,
+						max: 6,
+					},
+					marks: {
+						type: Number,
+						required: true,
+						min: 1,
+						max: 6,
+					},
+				},
+			],
+			_id: false,
+		},
+		psychologicalWellBeingScaleScore: {
+			type: [
+				{
+					questionNumber: {
+						type: Number,
+						required: true,
+						min: 0,
+						max: 18,
+					},
+					marks: {
+						type: Number,
+						required: true,
+						min: 1,
+						max: 7,
+					},
+				},
+			],
+			_id: false,
+		},
+		comboKey: { type: String, default: null },
+	},
+	{ timestamps: true },
+)
+
+// Automatically build comboKey
+StudentsWellBeingAssessmentSchema.pre('save', function (next) {
+	if (
+		this.isNew ||
+		this.isModified('studentId') ||
+		this.isModified('classRoomId') ||
+		this.isModified('academicYear')
+	) {
+		this.comboKey = buildComboKey(this.studentId, this.classRoomId, this.academicYear)
+	}
+	next()
+})
+
+StudentsWellBeingAssessmentSchema.pre('insertMany', function (next, docs) {
+	for (const doc of docs) {
+		doc.comboKey = buildComboKey(doc.studentId, doc.classRoomId, doc.academicYear)
+	}
+	next()
+})
+
+StudentsWellBeingAssessmentSchema.index({ comboKey: 1 })
+
+StudentsWellBeingAssessmentSchema.index({ studentId: 1, classRoomId: 1, academicYear: 1 })
+
+const WellBeingAssessment = mongoose.model(
+	collections.studentsWellBeingAssessment,
+	StudentsWellBeingAssessmentSchema,
+)
+module.exports.WellBeingAssessment = WellBeingAssessment
