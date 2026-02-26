@@ -1,0 +1,71 @@
+import welcomeBackground from '../resources/images/png/welcomeBackground.png'
+
+export const commonComponentStyles = {
+	leftSideSX: {
+		backgroundImage: `url(${welcomeBackground})`,
+		height: '100vh',
+		backgroundSize: 'cover',
+		pr: '20px',
+		pl: '20px',
+		textAlign: 'center',
+	},
+	toastCardSX: {
+		border: '0.5px solid',
+		borderColor: 'globalElementColors.blue1',
+		width: '444px',
+		borderRadius: '10px',
+		padding: '10px 20px',
+		backgroundColor: 'globalElementColors.canvas2',
+		boxShadow: 'none',
+	},
+	toastTitleSX: {
+		display: '-webkit-box',
+		overflow: 'hidden',
+		WebkitBoxOrient: 'vertical',
+		WebkitLineClamp: 1,
+		mt: '6px',
+		wordBreak: 'break-word',
+	},
+	toastSubTitleSX: {
+		display: '-webkit-box',
+		overflow: 'hidden',
+		WebkitBoxOrient: 'vertical',
+		WebkitLineClamp: 4,
+		wordBreak: 'break-word',
+	},
+	leftButtonDialogSx: {
+		padding: '16px 20px',
+		height: '42px',
+		minWidth: '145px',
+		borderRadius: '6px',
+		backgroundColor: 'buttonColors.white',
+	},
+	rightButtonDialogSx: {
+		padding: '16px 20px',
+		height: '42px',
+		minWidth: '145px',
+		borderRadius: '6px',
+		backgroundColor: 'buttonColors.blue',
+	},
+	selectSX: {
+		width: '100%',
+		minWidth: '200px',
+		border: '1px solid',
+		borderRadius: '4px',
+		borderColor: 'inputFieldColors.grey5',
+	},
+	addItemsUploadPopupContentSX: {
+		border: '1px dotted',
+		borderColor: 'globalElementColors.gray3',
+		borderRadius: '11px',
+		height: '100%',
+	},
+	customBtnUploadDialogSX: {
+		backgroundColor: 'buttonColors.white',
+		border: '1px solid',
+		borderColor: 'buttonColors.blue',
+		height: '40px',
+		width: '164px',
+		borderRadius: '4px',
+	},
+}

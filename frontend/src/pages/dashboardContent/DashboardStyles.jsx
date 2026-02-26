@@ -1,0 +1,86 @@
+export const dashboardStyles = {
+	eclipseSx: {
+		fontSize: '13px',
+		fontWeight: 500,
+		color: 'rgba(255, 255, 255, 0.9)',
+		letterSpacing: '0.3px',
+	},
+	numberSX: {
+		fontSize: '28px',
+		fontWeight: 700,
+		color: '#FFFFFF',
+		mt: '4px',
+		lineHeight: 1.2,
+	},
+	cardMainSx: {
+		width: '100%',
+		height: 'auto',
+		minHeight: 'auto',
+		background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+		borderRadius: '10px',
+		display: 'flex',
+		overflow: 'hidden',
+		boxShadow: '0 2px 8px rgba(102, 126, 234, 0.2)',
+		transition: 'transform 0.2s, box-shadow 0.2s',
+		'&:hover': {
+			transform: 'translateY(-1px)',
+			boxShadow: '0 4px 12px rgba(102, 126, 234, 0.25)',
+		},
+	},
+	cardSx: {
+		width: '100%',
+		height: '88px',
+		borderRadius: '10px',
+		overflow: 'hidden',
+		transition: 'all 0.2s ease',
+		boxShadow: '0 2px 6px rgba(0,0,0,0.08)',
+		'&:hover': {
+			transform: 'translateY(-2px)',
+			boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
+		},
+	},
+	collapseSx: (drawerWidth) => {
+		return {
+			backgroundColor: '#eee',
+			p: '3px',
+			borderRadius: '2px',
+			border: '1px solid #0000001f',
+			position: 'fixed',
+			top: 90,
+			left: drawerWidth === 300 ? 287 : 60,
+		}
+	},
+
+	cardBaselineAnalytics: {
+		width: '100%',
+		minHeight: '140px',
+		backgroundColor: '#FFFFFF',
+		borderRadius: '12px',
+		display: 'flex',
+		mt: '16px',
+		justifyContent: 'space-between',
+		boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+		transition: 'all 0.3s ease',
+		overflow: 'hidden',
+		border: '1px solid #E8EEF7',
+		'&:hover': {
+			boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+			transform: 'translateY(-1px)',
+		},
+	},
+	studentCoPeCardSSx: (superAdmin) => ({
+		width: superAdmin ? '32%' : '48%',
+		minHeight: '200px',
+		backgroundColor: '#FFFFFF',
+		borderRadius: '12px',
+		border: '1px solid #E8EEF7',
+		boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+		transition: 'all 0.3s ease',
+		overflow: 'hidden',
+		'&:hover': {
+			boxShadow: '0 4px 16px rgba(0,0,0,0.12)',
+			transform: 'translateY(-2px)',
+			borderColor: '#D0DBEA',
+		},
+	}),
+}

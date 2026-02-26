@@ -1,0 +1,253 @@
+<section
+	class="page"
+	style="
+		width: 1440px;
+		height: 810px;
+		background: #fffcf6;
+		position: relative;
+	"
+>
+	<style>
+		.page {
+			font-family:
+				system-ui,
+				-apple-system,
+				Segoe UI,
+				Roboto,
+				Helvetica,
+				Arial,
+				sans-serif;
+		}
+		.disc-title {
+			font:
+				italic 700 38px/1.2 Georgia,
+				'Times New Roman',
+				serif;
+			fill: #9ca3af;
+		}
+		.axis-label {
+			font:
+				500 20px/1.2 system-ui,
+				sans-serif;
+			fill: #374151;
+		}
+		.ycat {
+			font:
+				600 24px/1 system-ui,
+				sans-serif;
+			fill: #111827;
+		}
+		.tick text {
+			font:
+				17px system-ui,
+				sans-serif;
+			fill: #6b7280;
+		}
+		.grid line {
+			stroke: #e5e7eb;
+			stroke-width: 2;
+		}
+		.bar {
+			fill: #cfe7fb;
+		}
+		.bar-shadow {
+			fill: #9aa3ad;
+			opacity: 0.45;
+		}
+		.bar-value {
+			font:
+				600 22px/1 system-ui,
+				sans-serif;
+			fill: #2d3748;
+		}
+
+		/* ⬇ New minimal badge, top-right with 30px offsets */
+		.mypeegu-badge {
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			font-family: Times;
+			font-weight: 400;
+			font-size: 26px;
+			font-weight: 400;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-transform: none;
+			color: #000;
+			white-space: nowrap;
+		}
+	</style>
+
+	<!-- ⬇ Cleaned: single element for the badge -->
+	<div class="mypeegu-badge">©MyPeegu</div>
+
+	<!-- Keep full page canvas, we’ll center the smaller chart inside -->
+	<svg id="disc-svg" viewBox="0 0 1440 810" width="100%" height="100%"></svg>
+
+	<script>
+		;(() => {
+			// ---------- DEFAULT VALUES (your code can override these at runtime) ----------
+			// Order: [D, i, S, C] — each out of 5
+			const values = [2.5, 3, 4, 4]
+
+			// ---------- Layout (reduced size + centered) ----------
+			// Total page is 1440x810. We draw a smaller chart and center it.
+			const PAGE_W = 1440,
+				PAGE_H = 810
+			const CHART_W = 980,
+				CHART_H = 460 // smaller than before
+			const ORIGIN_X = (PAGE_W - CHART_W) / 2
+			const ORIGIN_Y = (PAGE_H - CHART_H) / 2
+
+			// Inner plot margins
+			const M = { top: 70, right: 90, bottom: 110, left: 150 }
+			const W = CHART_W - M.left - M.right
+			const H = CHART_H - M.top - M.bottom
+
+			// Scales
+			const xUnit = W / 5 // 0..5 scale
+			const cats = ['D', 'i', 'S', 'C']
+			const barH = 56
+			const rowGap = (H - barH * cats.length) / (cats.length - 1) // even vertical spacing
+
+			const svg = document.getElementById('disc-svg')
+			if (!svg) return
+
+			// Root group centered on page
+			const root = document.createElementNS(
+				'http://www.w3.org/2000/svg',
+				'g',
+			)
+			root.setAttribute('transform', `translate(${ORIGIN_X},${ORIGIN_Y})`)
+			svg.appendChild(root)
+
+			// Title
+			const title = tx(CHART_W / 2, 28 + 8, 'DiSc Profile', 'disc-title')
+			title.setAttribute('text-anchor', 'middle')
+			root.appendChild(title)
+
+			// Chart group
+			const gChart = g()
+			gChart.setAttribute('transform', `translate(${M.left},${M.top})`)
+			root.appendChild(gChart)
+
+			// Grid lines 0..5
+			const gGrid = g('grid')
+			for (let i = 0; i <= 5; i++) {
+				const x = i * xUnit
+				gGrid.appendChild(line(x, 0, x, H))
+			}
+			gChart.appendChild(gGrid)
+
+			// Y labels + bars
+			const gYAxis = g()
+			const gBars = g()
+			const gTicks = g('tick')
+
+			values.forEach((vRaw, i) => {
+				const v = Math.max(0, Math.min(5, Number(vRaw) || 0))
+				const width = v * xUnit
+				const yTop = i * (barH + rowGap)
+
+				// y-category label
+				const yl = tx(-20, yTop + barH / 2 + 2, cats[i], 'ycat')
+				yl.setAttribute('text-anchor', 'end')
+				gYAxis.appendChild(yl)
+
+				// bar shadow (small offset)
+				gBars.appendChild(
+					rect(12, yTop + 10, width, barH, 12, 'bar-shadow'),
+				)
+				// bar
+				gBars.appendChild(rect(0, yTop, width, barH, 12, 'bar'))
+
+				// numeric value
+				const vx = Math.min(width + 10, W + 40) // keep near end, but not too far
+				const vy = yTop + barH / 2 + 8
+				const valText = tx(vx, vy, String(v), 'bar-value')
+				valText.setAttribute('text-anchor', 'start')
+				gBars.appendChild(valText)
+			})
+			gChart.appendChild(gYAxis)
+			gChart.appendChild(gBars)
+
+			// X ticks (0..5)
+			for (let i = 0; i <= 5; i++) {
+				const lbl = tx(i * xUnit, H + 34, String(i))
+				lbl.setAttribute('text-anchor', 'middle')
+				gTicks.appendChild(lbl)
+			}
+			gChart.appendChild(gTicks)
+
+			// Axis labels
+			const xLab = tx(
+				W / 2,
+				H + 74,
+				'Domain Scores (out of 5)',
+				'axis-label',
+			)
+			xLab.setAttribute('text-anchor', 'middle')
+			gChart.appendChild(xLab)
+
+			const yLab = tx(
+				-M.left + 18,
+				H / 2,
+				'Profile Dominance',
+				'axis-label',
+			)
+			yLab.setAttribute('text-anchor', 'middle')
+			yLab.setAttribute(
+				'transform',
+				`rotate(-90 ${-M.left + 18},${H / 2})`,
+			)
+			gChart.appendChild(yLab)
+
+			// ---------- helpers ----------
+			function g(cls) {
+				const el = document.createElementNS(
+					'http://www.w3.org/2000/svg',
+					'g',
+				)
+				if (cls) el.setAttribute('class', cls)
+				return el
+			}
+			function line(x1, y1, x2, y2) {
+				const el = document.createElementNS(
+					'http://www.w3.org/2000/svg',
+					'line',
+				)
+				el.setAttribute('x1', x1)
+				el.setAttribute('y1', y1)
+				el.setAttribute('x2', x2)
+				el.setAttribute('y2', y2)
+				return el
+			}
+			function rect(x, y, w, h, r, cls) {
+				const el = document.createElementNS(
+					'http://www.w3.org/2000/svg',
+					'rect',
+				)
+				el.setAttribute('x', x)
+				el.setAttribute('y', y)
+				el.setAttribute('width', Math.max(0, w))
+				el.setAttribute('height', h)
+				el.setAttribute('rx', r)
+				el.setAttribute('ry', r)
+				if (cls) el.setAttribute('class', cls)
+				return el
+			}
+			function tx(x, y, str, cls) {
+				const el = document.createElementNS(
+					'http://www.w3.org/2000/svg',
+					'text',
+				)
+				el.setAttribute('x', x)
+				el.setAttribute('y', y)
+				if (cls) el.setAttribute('class', cls)
+				el.textContent = str
+				return el
+			}
+		})()
+	</script>
+</section>

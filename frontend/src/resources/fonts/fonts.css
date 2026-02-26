@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'K2DReg';
+	src: url('./K2D/K2D-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'InterReg';
+	src: url('./Inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'InterMed';
+	src: url('./Inter/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'InterBold';
+	src: url('./Inter/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'GloryBold';
+	src: url('./Glory/Glory-Bold.ttf') format('truetype');
+}

@@ -1,0 +1,1377 @@
+[{
+  "_id": {
+    "$oid": "683538a10363c288678dc58b"
+  },
+  "name": "Assam",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc58c"
+  },
+  "name": "Bihar",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc58d"
+  },
+  "name": "Chhattisgarh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc58e"
+  },
+  "name": "Goa",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc58f"
+  },
+  "name": "Gujarat",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc589"
+  },
+  "name": "Andhra Pradesh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.203Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc58a"
+  },
+  "name": "Arunachal Pradesh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc591"
+  },
+  "name": "Himachal Pradesh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc595"
+  },
+  "name": "Madhya Pradesh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc594"
+  },
+  "name": "Kerala",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc593"
+  },
+  "name": "Karnataka",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc596"
+  },
+  "name": "Maharashtra",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc597"
+  },
+  "name": "Manipur",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc598"
+  },
+  "name": "Meghalaya",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc599"
+  },
+  "name": "Mizoram",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc59a"
+  },
+  "name": "Nagaland",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc59b"
+  },
+  "name": "Odisha",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc59c"
+  },
+  "name": "Punjab",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc59d"
+  },
+  "name": "Rajasthan",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc59e"
+  },
+  "name": "Sikkim",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc59f"
+  },
+  "name": "Tamil Nadu",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a0"
+  },
+  "name": "Telangana",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc592"
+  },
+  "name": "Jharkhand",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a1"
+  },
+  "name": "Tripura",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc590"
+  },
+  "name": "Haryana",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a4"
+  },
+  "name": "West Bengal",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a5"
+  },
+  "name": "Andaman and Nicobar Islands",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a6"
+  },
+  "name": "Chandigarh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a7"
+  },
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5aa"
+  },
+  "name": "Ladakh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a8"
+  },
+  "name": "Delhi",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a9"
+  },
+  "name": "Jammu and Kashmir",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5ab"
+  },
+  "name": "Lakshadweep",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5ac"
+  },
+  "name": "Puducherry",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a2"
+  },
+  "name": "Uttar Pradesh",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a10363c288678dc5a3"
+  },
+  "name": "Uttarakhand",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c3f"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:29.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d2"
+  },
+  "name": "New South Wales",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d3"
+  },
+  "name": "Victoria",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d4"
+  },
+  "name": "Queensland",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d5"
+  },
+  "name": "Western Australia",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d6"
+  },
+  "name": "South Australia",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d7"
+  },
+  "name": "Tasmania",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d8"
+  },
+  "name": "Australian Capital Territory",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5dc"
+  },
+  "name": "Christmas Island",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5db"
+  },
+  "name": "Norfolk Island",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5de"
+  },
+  "name": "Coral Sea Islands",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5df"
+  },
+  "name": "Heard Island and McDonald Islands",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5dd"
+  },
+  "name": "Cocos (Keeling) Islands",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5e1"
+  },
+  "name": "Australian Antarctic Territory",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5e0"
+  },
+  "name": "Ashmore and Cartier Islands",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5d9"
+  },
+  "name": "Northern Territory",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5da"
+  },
+  "name": "Jervis Bay Territory",
+  "country": {
+    "$oid": "683535fbcba5a9e492315bfc"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f4"
+  },
+  "name": "Sharjah",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f3"
+  },
+  "name": "Dubai",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f2"
+  },
+  "name": "Abu Dhabi",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f7"
+  },
+  "name": "Ras Al Khaimah",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f5"
+  },
+  "name": "Ajman",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f6"
+  },
+  "name": "Umm Al Quwain",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683538a20363c288678dc5f8"
+  },
+  "name": "Fujairah",
+  "country": {
+    "$oid": "683535fbcba5a9e492315caa"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-27T03:59:30.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-27T03:59:30.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2348a"
+  },
+  "name": "Shaviyani Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2348b"
+  },
+  "name": "Noonu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2348c"
+  },
+  "name": "Raa Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2348d"
+  },
+  "name": "Baa Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2348e"
+  },
+  "name": "Lhaviyani Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2348f"
+  },
+  "name": "Kaafu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23489"
+  },
+  "name": "Haa Dhaalu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23492"
+  },
+  "name": "Vaavu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23491"
+  },
+  "name": "Alif Dhaal Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23494"
+  },
+  "name": "Faafu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23493"
+  },
+  "name": "Meemu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23488"
+  },
+  "name": "Haa Alif Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.859Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23496"
+  },
+  "name": "Thaa Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23497"
+  },
+  "name": "Laamu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23498"
+  },
+  "name": "Gaafu Alif Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23499"
+  },
+  "name": "Gaafu Dhaalu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2349a"
+  },
+  "name": "Malé City",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2349b"
+  },
+  "name": "Addu City",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23490"
+  },
+  "name": "Alif Alif Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2349d"
+  },
+  "name": "Kulhudhuffushi City",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.861Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e23495"
+  },
+  "name": "Dhaalu Atoll",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68370b375eff0cc2b1e2349c"
+  },
+  "name": "Fuvahmulah City",
+  "country": {
+    "$oid": "683535fbcba5a9e492315c5c"
+  },
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T13:10:15.860Z"
+  },
+  "__v": 0
+}]

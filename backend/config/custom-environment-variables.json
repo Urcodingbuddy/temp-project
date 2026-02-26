@@ -1,0 +1,10 @@
+{
+	"environment": "NODE_ENV",
+	"superAdminKey": "myPeegu_SuperAdminKey",
+	"jwtPrivateKey": "myPeegu_jwtPrivateKey",
+	"port": "myPeegu_PORT",
+	"logLevel": "myPeegu_LogLevel",
+	"dbPath": "myPeegu_dbPath",
+	"myPeeguAccessKeyId": "myPeeguAccessKeyId",
+	"myPeeguSecretAccessKey": "myPeeguSecretAccessKey"
+}

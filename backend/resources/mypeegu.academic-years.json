@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "6833fa694703ea21d81dd7e3"
+  },
+  "academicYear": "2020-2021",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-26T05:21:45.941Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T05:21:45.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fa9c4703ea21d81dd7e5"
+  },
+  "academicYear": "2021-2022",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-26T05:22:36.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T05:22:36.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833faa74703ea21d81dd7e7"
+  },
+  "academicYear": "2022-2023",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-26T05:22:47.515Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T05:22:47.515Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fab14703ea21d81dd7e9"
+  },
+  "academicYear": "2023-2024",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-26T05:22:57.992Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T05:22:57.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fabc4703ea21d81dd7eb"
+  },
+  "academicYear": "2024-2025",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-26T05:23:08.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T05:23:08.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fac64703ea21d81dd7ed"
+  },
+  "academicYear": "2025-2026",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2025-05-26T05:23:18.624Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-26T05:23:18.624Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MG7S8RH');</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42312932-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-42312932-15');
+</script>
+
+<!-- Primis TAG Parameters Description. All values must be ENCODED.
+subId :  Sub-Id,
+-->
+
+<link href="/css/altcodes.css?v=1.029" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" sizes="192x192" href="/icon.png" />
+<link rel="apple-touch-icon" href="https://www.alt-codes.net/apple-touch-icon-152x152.png" sizes="152x152" />
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+ window.googletag = window.googletag || {cmd: []};
+ googletag.cmd.push(function() {
+  googletag.defineSlot('/21794835430/1_on_1', [1, 1], 'div-gpt-ad-1627306958189-0').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+ });
+</script>
+
+    <script>
+    !function(n){if(!window.cnx){window.cnx={},window.cnx.cmd=[];var t=n.createElement('iframe');t.display='none',t.onload=function(){var n=t.contentWindow.document,c=n.createElement('script');c.src='//cd.connatix.com/connatix.player.js',c.setAttribute('async','1'),c.setAttribute('type','text/javascript'),n.body.appendChild(c)},n.head.appendChild(t)}}(document);
+    </script>
+
+<!--<link rel="preload" href="https://launchpad.privacymanager.io/latest/launchpad.bundle.js" as="script" />-->
+<!--<script async defer src="https://launchpad-wrapper.privacymanager.io/024f8486-f9e6-4a12-9de9-0d8a52e94d03/launchpad-liveramp.js"></script>-->
+
+<!-- CMP -->
+<!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+<script type="text/javascript" async=true>
+    (function() {
+        var host = window.location.hostname;
+        var element = document.createElement('script');
+        var firstScript = document.getElementsByTagName('script')[0];
+        var url = 'https://cmp.inmobi.com'
+            .concat('/choice/', 'Q_PLb0h7WgByK', '/', host, '/choice.js?tag_version=V3');
+        var uspTries = 0;
+        var uspTriesLimit = 3;
+        element.async = true;
+        element.type = 'text/javascript';
+        element.src = url;
+
+        firstScript.parentNode.insertBefore(element, firstScript);
+
+        function makeStub() {
+            var TCF_LOCATOR_NAME = '__tcfapiLocator';
+            var queue = [];
+            var win = window;
+            var cmpFrame;
+
+            function addFrame() {
+                var doc = win.document;
+                var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+                if (!otherCMP) {
+                    if (doc.body) {
+                        var iframe = doc.createElement('iframe');
+
+                        iframe.style.cssText = 'display:none';
+                        iframe.name = TCF_LOCATOR_NAME;
+                        doc.body.appendChild(iframe);
+                    } else {
+                        setTimeout(addFrame, 5);
+                    }
+                }
+                return !otherCMP;
+            }
+
+            function tcfAPIHandler() {
+                var gdprApplies;
+                var args = arguments;
+
+                if (!args.length) {
+                    return queue;
+                } else if (args[0] === 'setGdprApplies') {
+                    if (
+                        args.length > 3 &&
+                        args[2] === 2 &&
+                        typeof args[3] === 'boolean'
+                    ) {
+                        gdprApplies = args[3];
+                        if (typeof args[2] === 'function') {
+                            args[2]('set', true);
+                        }
+                    }
+                } else if (args[0] === 'ping') {
+                    var retr = {
+                        gdprApplies: gdprApplies,
+                        cmpLoaded: false,
+                        cmpStatus: 'stub'
+                    };
+
+                    if (typeof args[2] === 'function') {
+                        args[2](retr);
+                    }
+                } else {
+                    if(args[0] === 'init' && typeof args[3] === 'object') {
+                        args[3] = Object.assign(args[3], { tag_version: 'V3' });
+                    }
+                    queue.push(args);
+                }
+            }
+
+            function postMessageEventHandler(event) {
+                var msgIsString = typeof event.data === 'string';
+                var json = {};
+
+                try {
+                    if (msgIsString) {
+                        json = JSON.parse(event.data);
+                    } else {
+                        json = event.data;
+                    }
+                } catch (ignore) {}
+
+                var payload = json.__tcfapiCall;
+
+                if (payload) {
+                    window.__tcfapi(
+                        payload.command,
+                        payload.version,
+                        function(retValue, success) {
+                            var returnMsg = {
+                                __tcfapiReturn: {
+                                    returnValue: retValue,
+                                    success: success,
+                                    callId: payload.callId
+                                }
+                            };
+                            if (msgIsString) {
+                                returnMsg = JSON.stringify(returnMsg);
+                            }
+                            if (event && event.source && event.source.postMessage) {
+                                event.source.postMessage(returnMsg, '*');
+                            }
+                        },
+                        payload.parameter
+                    );
+                }
+            }
+
+            while (win) {
+                try {
+                    if (win.frames[TCF_LOCATOR_NAME]) {
+                        cmpFrame = win;
+                        break;
+                    }
+                } catch (ignore) {}
+
+                if (win === window.top) {
+                    break;
+                }
+                win = win.parent;
+            }
+            if (!cmpFrame) {
+                addFrame();
+                win.__tcfapi = tcfAPIHandler;
+                win.addEventListener('message', postMessageEventHandler, false);
+            }
+        };
+
+        makeStub();
+
+        function makeGppStub() {
+            const CMP_ID = 10;
+            const SUPPORTED_APIS = [
+                '2:tcfeuv2',
+                '6:uspv1',
+                '7:usnatv1',
+                '8:usca',
+                '9:usvav1',
+                '10:uscov1',
+                '11:usutv1',
+                '12:usctv1'
+            ];
+
+            window.__gpp_addFrame = function (n) {
+                if (!window.frames[n]) {
+                    if (document.body) {
+                        var i = document.createElement("iframe");
+                        i.style.cssText = "display:none";
+                        i.name = n;
+                        document.body.appendChild(i);
+                    } else {
+                        window.setTimeout(window.__gpp_addFrame, 10, n);
+                    }
+                }
+            };
+            window.__gpp_stub = function () {
+                var b = arguments;
+                __gpp.queue = __gpp.queue || [];
+                __gpp.events = __gpp.events || [];
+
+                if (!b.length || (b.length == 1 && b[0] == "queue")) {
+                    return __gpp.queue;
+                }
+
+                if (b.length == 1 && b[0] == "events") {
+                    return __gpp.events;
+                }
+
+                var cmd = b[0];
+                var clb = b.length > 1 ? b[1] : null;
+                var par = b.length > 2 ? b[2] : null;
+                if (cmd === "ping") {
+                    clb(
+                        {
+                            gppVersion: "1.1", // must be “Version.Subversion”, current: “1.1”
+                            cmpStatus: "stub", // possible values: stub, loading, loaded, error
+                            cmpDisplayStatus: "hidden", // possible values: hidden, visible, disabled
+                            signalStatus: "not ready", // possible values: not ready, ready
+                            supportedAPIs: SUPPORTED_APIS, // list of supported APIs
+                            cmpId: CMP_ID, // IAB assigned CMP ID, may be 0 during stub/loading
+                            sectionList: [],
+                            applicableSections: [-1],
+                            gppString: "",
+                            parsedSections: {},
+                        },
+                        true
+                    );
+                } else if (cmd === "addEventListener") {
+                    if (!("lastId" in __gpp)) {
+                        __gpp.lastId = 0;
+                    }
+                    __gpp.lastId++;
+                    var lnr = __gpp.lastId;
+                    __gpp.events.push({
+                        id: lnr,
+                        callback: clb,
+                        parameter: par,
+                    });
+                    clb(
+                        {
+                            eventName: "listenerRegistered",
+                            listenerId: lnr, // Registered ID of the listener
+                            data: true, // positive signal
+                            pingData: {
+                                gppVersion: "1.1", // must be “Version.Subversion”, current: “1.1”
+                                cmpStatus: "stub", // possible values: stub, loading, loaded, error
+                                cmpDisplayStatus: "hidden", // possible values: hidden, visible, disabled
+                                signalStatus: "not ready", // possible values: not ready, ready
+                                supportedAPIs: SUPPORTED_APIS, // list of supported APIs
+                                cmpId: CMP_ID, // list of supported APIs
+                                sectionList: [],
+                                applicableSections: [-1],
+                                gppString: "",
+                                parsedSections: {},
+                            },
+                        },
+                        true
+                    );
+                } else if (cmd === "removeEventListener") {
+                    var success = false;
+                    for (var i = 0; i < __gpp.events.length; i++) {
+                        if (__gpp.events[i].id == par) {
+                            __gpp.events.splice(i, 1);
+                            success = true;
+                            break;
+                        }
+                    }
+                    clb(
+                        {
+                            eventName: "listenerRemoved",
+                            listenerId: par, // Registered ID of the listener
+                            data: success, // status info
+                            pingData: {
+                                gppVersion: "1.1", // must be “Version.Subversion”, current: “1.1”
+                                cmpStatus: "stub", // possible values: stub, loading, loaded, error
+                                cmpDisplayStatus: "hidden", // possible values: hidden, visible, disabled
+                                signalStatus: "not ready", // possible values: not ready, ready
+                                supportedAPIs: SUPPORTED_APIS, // list of supported APIs
+                                cmpId: CMP_ID, // CMP ID
+                                sectionList: [],
+                                applicableSections: [-1],
+                                gppString: "",
+                                parsedSections: {},
+                            },
+                        },
+                        true
+                    );
+                } else if (cmd === "hasSection") {
+                    clb(false, true);
+                } else if (cmd === "getSection" || cmd === "getField") {
+                    clb(null, true);
+                }
+                //queue all other commands
+                else {
+                    __gpp.queue.push([].slice.apply(b));
+                }
+            };
+            window.__gpp_msghandler = function (event) {
+                var msgIsString = typeof event.data === "string";
+                try {
+                    var json = msgIsString ? JSON.parse(event.data) : event.data;
+                } catch (e) {
+                    var json = null;
+                }
+                if (typeof json === "object" && json !== null && "__gppCall" in json) {
+                    var i = json.__gppCall;
+                    window.__gpp(
+                        i.command,
+                        function (retValue, success) {
+                            var returnMsg = {
+                                __gppReturn: {
+                                    returnValue: retValue,
+                                    success: success,
+                                    callId: i.callId,
+                                },
+                            };
+                            event.source.postMessage(msgIsString ? JSON.stringify(returnMsg) : returnMsg, "*");
+                        },
+                        "parameter" in i ? i.parameter : null,
+                        "version" in i ? i.version : "1.1"
+                    );
+                }
+            };
+            if (!("__gpp" in window) || typeof window.__gpp !== "function") {
+                window.__gpp = window.__gpp_stub;
+                window.addEventListener("message", window.__gpp_msghandler, false);
+                window.__gpp_addFrame("__gppLocator");
+            }
+        };
+
+        makeGppStub();
+
+        var uspStubFunction = function() {
+            var arg = arguments;
+            if (typeof window.__uspapi !== uspStubFunction) {
+                setTimeout(function() {
+                    if (typeof window.__uspapi !== 'undefined') {
+                        window.__uspapi.apply(window.__uspapi, arg);
+                    }
+                }, 500);
+            }
+        };
+
+        var checkIfUspIsReady = function() {
+            uspTries++;
+            if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+                console.warn('USP is not accessible');
+            } else {
+                clearInterval(uspInterval);
+            }
+        };
+
+        if (typeof window.__uspapi === 'undefined') {
+            window.__uspapi = uspStubFunction;
+            var uspInterval = setInterval(checkIfUspIsReady, 6000);
+        }
+    })();
+</script>
+<!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+<!-- End CMP -->
+
+<script src="https://btloader.com/tag?o=5709550879506432&upapi=true" async></script>
+
+<!-- browsi-tag -->
+<script
+    src="https://cdn.browsiprod.com/bootstrap/bootstrap.js"
+    id="browsi-tag"
+    data-pubKey="landocs"
+    data-siteKey="d_mapping"
+    async>
+</script>
+<title> © ℗ ⓒ Copyright Symbol</title>
+<meta name="Description" content="Copyright symbol text characters alt codes and unicode, learn how to make a copyright symbol html character and copy and paste copyright sign &copy;." />
+<meta property="og:title" content="Copyright Symbol" />
+<meta property="og:url" content="https://www.alt-codes.net/copyright_alt_code.php" />
+<meta property="og:image" content="https://www.alt-codes.net/images/copyright.png" />
+<meta property="og:description" content="Copyright symbols text characters alt codes and unicodes with symbol png." />
+<link rel="canonical" href="https://www.alt-codes.net/copyright_alt_code.php" />
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG7S8RH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="shadow">
+<div class="row">
+<div class="col-2">
+<a href="/" title="Alt Codes Symbols"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="144" height="36" viewBox="0, -3, 112, 24"><g id="Layer_1" transform="translate(-257, -203.5)"><text transform="matrix(1, 0, 0, 1, 314.102, 215.5)"><tspan x="-57.102" y="7" font-family="ArialMT" font-size="21" kerning="2" fill="#ffffff">Alt-Codes</tspan></text></g></svg></a>
+</div>
+<div class="col-10">
+<span class="toggle" id="toggle"></span>
+<nav id="menu">
+<ul id="navmenu" class="list-horizontal">
+<li><a href="/" title="Alt Codes Symbols">Home</a></li>
+<li><a href="/miscellaneous-symbols" title="Miscellaneous Symbols Alt Codes">Misc</a></li>
+<li><a href="/language-symbols" title="Language Symbols Alt Codes">Language</a></li>
+<li><a href="/currency-symbols" title="Currency Symbols Alt Codes">Currency</a></li>
+<li><a href="/math-symbols-list" title="Math Symbols">Math</a></li>
+<li><a href="/time-symbols-list" title="Time Symbols">Time</a></li>
+<li><a href="/game-symbols.php" title="Game Symbols">Game</a></li>
+<li><a href="/editor.php" title="Ascii Art Editor With Symbols">Ascii Editor</a></li>
+<li><a href="/blog" title="Blog">Blog</a></li>
+</ul>
+</nav></div></div>
+</header>
+
+<!-- /21794835430/1_on_1 -->
+<div id='div-gpt-ad-1627306958189-0'>
+ <script>
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1627306958189-0'); });
+ </script>
+</div>
+
+
+<div id="copyModal">
+	<div class="modal-content">
+		<div class="modal-header">
+			<span id="symbolText"></span>
+			<span>has been <b>copied.</b> Please paste anywhere!</span>
+		</div>
+		<div class="modal-body">
+      
+<div class="top ATC_970v_1">
+    <div data-aaad='true'  data-aa-adunit='/21794835430/ATC_970v_1'></div>
+<!--    <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_300v_1'></div>-->
+</div>
+		</div>
+		<div class="modal-footer">
+			<a href="javascript:void(0)" class="close btn" onclick="closeCopyModal()">Close</a>
+		</div>
+	</div>
+</div>
+
+<div id="hoverAd">
+	<div class="hoverAd-header">
+		<div id="hoverAdTitle" onclick="hoverAdCopy()"></div>
+		<div>
+			<a class="hoverAdButton" onclick="hoverAdCopy()" href="javascript:void(0)">Copy</a>
+		</div>
+	</div>
+	<div class="hoverAd-body">
+     <div class="right ATC_336v_3">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_336v_3'></div>
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_300v_3'></div>
+</div>
+	</div>
+</div>
+<main>
+<div class="breadcrumb">
+<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/"  itemprop="url"><span itemprop="title">Alt Codes</span></a> &raquo;
+</div>
+<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/miscellaneous-symbols"  itemprop="url"><span itemprop="title">Miscellaneous Symbols</span></a> &raquo;
+</div>
+<div><em>Copyright Symbol</em></div>
+</div>
+ <div class="left sticky ATC_300v_1">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_300v_1'></div>
+</div>
+<h1>Copyright Symbol</h1>
+
+<div class="top ATC_970v_1">
+    <div data-aaad='true'  data-aa-adunit='/21794835430/ATC_970v_1'></div>
+<!--    <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_300v_1'></div>-->
+</div>
+<div class="row">
+<div class="col-8 main">
+<table>
+<tr>
+<th>Copyright Symbol</th>
+<th>Copyright Symbol Name</th>
+<th>Symbol Number</th>
+</tr>
+<tr><td>©</td><td>Copyright Alt Code</td><td>0169</td></tr>
+<tr><td>&#169;</td><td>Copyright Unicode</td><td>&amp;#169;</td></tr>
+<tr><td>&copy;</td><td>Copyright Html</td><td>&amp;copy;</td></tr>
+<tr><td>&#8471;</td><td>Sound Recording Copyright Unicode</td><td>&amp;#8471;</td></tr>
+<tr><td>&#9400;</td><td>Copyright Symbol</td><td>&amp;#9400;</td></tr>
+<tr><td>&#9426;</td><td>Circled Small c letter Copyright Symbol</td><td>&amp;#9426;</td></tr>
+</table>
+<h2>Copyright Symbol on Windows</h2>
+<p>Press and hold the <kbd class="keybd">ALT</kbd> key, type the numbers <kbd class="keybd">0</kbd><kbd class="keybd">1</kbd><kbd class="keybd">6</kbd><kbd class="keybd">9</kbd> to get <strong>copyright symbol</strong>.</p>
+<p>Example usage of copyright symbol: &copy; 2025 www.alt-codes.net</p>
+<h2>Copyright Symbol on Mac</h2>
+<p>Press <kbd class="keybd">⇧ Option Key</kbd> and <kbd class="keybd">g</kbd> key to get a <em>copyright symbol</em> on Mac.</p>
+<div class="center margin20">
+<a href="/images/copyright-symbol.png" title="Download Copyright Symbol" target="_blank">
+<img src="/images/copyright-symbol.png" alt="Copyright Symbol" class="symbol shadow rounded margin10" /><br />
+Download Copyright Symbol Png</a>
+</div>
+<div class="social">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.alt-codes.net%2Fcopyright_alt_code.php" rel="nofollow" target="_blank" class="button share-on-facebook" title="Share on Facebook">Facebook</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.alt-codes.net%2Fcopyright_alt_code.php" rel="nofollow" target="_blank" class="button share-on-twitter" title="Share on Twitter">Twitter</a>
+</div><img src="/images/copyright.png" alt="Copyright Symbols" class="symbol-img shadow rounded margin10a" />
+</div><div class="col-4 sidebar">
+    <div style="width: 100%;position: relative;margin-bottom: 19px;margin-top: 13px">
+        <!-- <script async id="AV655b76b4e2b1ab189b0a0695" type="text/javascript"
+                src="https://tg1.aniview.com/api/adserver/spt?AV_TAGID=655b76b4e2b1ab189b0a0695&AV_PUBLISHERID=647d094ab25f77b976032245"
+        ></script> -->
+
+        <script defer src="//static.vidazoo.com/basev/vwpt.js"
+            data-widget-id="66cf12649ea3d2d7717d327a"
+            data-widget-position="$current"></script>
+    </div>
+<div class="right ATC_336v_1">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_336v_1'></div>
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_300v_3'></div>
+</div>
+<div class="margin20 p-left-15">
+<h3>Symbol Test Box</h3>
+<p>You can copy & paste, or drag & drop any symbol to textbox below, and see how it looks like.</p>
+<textarea class="full-width" id="pastSymbol" rows="6"></textarea>
+</div>
+<div class="right ATC_336v_2">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_336v_2'></div>
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_300v_3'></div>
+</div>
+
+<h3>Miscellaneous Symbols</h3>
+<ul class="list-vertical">
+<li><a href="/alphabet_alt_codes.php" title="Alphabet Alt Code">&#65; Alphabet</a></li>
+<li><a href="/animal-symbols.php" title="Animal Symbols">&#x1F431; Animal Symbols</a></li>
+<li><a href="/arrow_alt_codes.php" title="Arrow Symbols">&#8594; Arrows Symbols</a></li>
+<li><a href="/body-part-emoji.php" title="Body Part Emojis">&#128170; Body Part Emojis</a></li>
+<li><a href="/bullet_alt_codes.php" title="Bullet Symbols Alt Codes">&#8227; Bullets Symbols</a></li>
+<li><a href="/check-mark-symbols.php" title="Check Mark Symbols">&#10003; Check Mark Symbols</a></li>
+<li><a href="/copyright_alt_code.php" title="Copyright Symbol">&#169; Copyright Symbol</a></li>
+<li><a href="/degree_sign_alt_code.php" title="Degree Sign Alt Code">&#176; Degree Sign</a></li>
+<li><a href="/flags" title="Flag Symbols">&#127937; Flag Symbols</a></li>
+<li><a href="/food-emoji" title="Food Emojis">&#127828; Food Emojis</a></li>
+<li><a href="/gender-symbol.php" title="Gender Symbols">&#9794; Gender Symbols</a></li>
+<li><a href="/heart_alt_code.php" title="Heart Symbols Text Alt Codes">&#9829; Heart Symbols</a></li>
+<li><a href="/infinity-symbol.php" title="Infinity Symbol">&#8734; Infinity Symbol</a></li>
+<li><a href="/recycling-symbols.php" title="Recycling Symbols">&#x267A; Recycling Symbols</a></li>
+<li><a href="/latin-cross.php" title="Latin Cross Symbols">&#10013; Latin Cross</a></li>
+<li><a href="/music_note_alt_codes.php" title="Music Note Symbols">&#9835; Music Note Symbols</a></li>
+<li><a href="/peace_sign_alt_code.php" title="Peace Sign Symbol">&#9774; Peace Sign Symbol</a></li>
+<li><a href="/registered_mark_alt_code.php" title="Registered Symbol Mark Alt Code">&#174; Registered Mark</a></li>
+<li><a href="/skull-and-crossbones.php" title="Skull And Crossbones Symbols">&#9760; Skull And Crossbones</a></li>
+<li><a href="/snowflakes-symbols.php" title="Snowflakes Symbols">&#10052; Snowflakes Symbols</a></li>
+<li><a href="/smiley_alt_codes.php" title="Emoticons Smiley Face Symbols">&#9786; Emoticons Smiley</a></li>
+<li><a href="/planet-symbols.php" title="Planet Symbols Astrological">&#9795; Planet Symbols Astrological</a></li>
+<li><a href="/star_alt_code.php" title="Star Symbols">&#9733; Star Symbols</a></li>
+<li><a href="/radioactive-hazard-symbols.php" title="Radioactive Hazard Symbols">&#x2622; Radioactive Hazard Symbols</a></li>
+<li><a href="/telephone-symbols.php" title="Telephone Symbols">&#9743; Telephone Symbols</a></li>
+<li><a href="/trademark_alt_code.php" title="TM Symbol Trademark">&#8482; TM Symbol Trademark</a></li>
+<li><a href="/weather-symbols.php" title="Weather Symbols">&#x263C; Weather Symbols</a></li>
+<li><a href="/zodiac-signs.php" title="Zodiac Signs">&#9811; Zodiac Signs</a></li>
+</ul>
+<div class="right ATC_336v_3">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_336v_3'></div>
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_300v_3'></div>
+</div>
+<h3>How to Use Symbols</h3>
+<p>First select the symbol then you can drag&amp;drop or just copy&amp;paste it anywhere you like.</p>
+<p>Alt-Codes can be typed on Microsoft Operating Systems:
+<ul><li>First make sure that numlock is on,</li>
+<li>Then press and hold the <kbd class="keybd">ALT</kbd> key,</li>
+<li>While keeping <kbd class="keybd">ALT</kbd> key pressed type the code for the symbol that you want and release the <kbd class="keybd">ALT</kbd> key.</li>
+</ul>
+<p>Unicode codes can not be typed. Codes can be used within HTML, Java..etc programming languages. To use them in facebook, twitter, textbox or elsewhere just follow the instructions at top.</p>
+</div>
+</div>
+<div class="bottom ATC_970v_2">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_970v_2'></div>
+</div>
+</main><div class="sticky-bottom ATC_728v_4">
+  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_728v_5'></div>
+<!--  <div data-aaad='true' data-aa-adunit='/21794835430/ATC_M_320v_1'></div>-->
+</div>
+
+<footer>
+<div class="row">
+    <p>&copy; 2007-2025 <a href="/" title="Alt Codes Symbols">www.alt-codes.net</a></p><ul class="list-horizontal"><li><a href="/about-us.php" title="About Us">About Us</a></li><li><a href="/privacy-policy.pdf" target="_blank" title="Privacy Policy">Privacy Policy</a></li><li><a target="_blank" href="/cookie-policy.pdf" title="Cookie Policy">Cookie Policy</a></li><li><a href="/contact.php" title="Contact Us">Contact Us</a></li><li><a href="/how_to_use_alt_codes/" title="Help How to use">Help</a></li><li><a href="/sitemap.php" title="Sitemap">Sitemap</a></li><li>
+    <!-- OneTrust Cookies Settings button start -->
+    <!-- <a href="javascript:void(0)" class="ot-sdk-show-settings">Cookie Settings</a> -->
+    <!-- OneTrust Cookies Settings button end --></li></ul>
+
+    <!-- DO NOT SELL MY DATA ... -->
+    <div id="choice-footer-msg" class="choice-footer-msg ccpa-msg-added">
+        "We use cookies and other data collection technologies to provide the best experience for our customers. You may request that your data not be shared with third parties here: "</div>
+    <a href="#" onclick="window.__uspapi('displayUspUi');" style="text-decoration: underline;">Do Not Sell My Data</a>
+</div>
+</footer>
+<div id="toast" style="display:none;background-color:rgba(51,51,51,0.9);max-width:100px;font-size:.9rem;padding:5px 10px;position:fixed;bottom:120px;left:46%;text-align:center;color:#eee;border-radius:5px">Copied!</div>
+<script>var yid ='';</script>
+<script src="/js/local.js?v=1.017"></script>
+</body>
+</html>

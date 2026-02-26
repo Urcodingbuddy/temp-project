@@ -1,0 +1,11 @@
+{
+	"name": "MYPEEGU-dev",
+	"environment": "development",
+	"superAdminKey": "",
+	"jwtPrivateKey": "mypeegu_local_secret_123456",
+	"port": "3004",
+	"logLevel": "info",
+	"dbPath": "mongodb://localhost:27017/mypeegu",
+	"myPeeguAccessKeyId": "",
+	"myPeeguSecretAccessKey": ""
+}
